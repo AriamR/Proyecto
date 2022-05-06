@@ -24,3 +24,5 @@ export const Pagination = ({page, setPage, maximum}) => {
     )
         
 }
+
+  //"proxy": "http://localhost:9000"
