@@ -1,0 +1,145 @@
+.container{
+    text-align: center;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+  
+}
+
+.conMain{
+    padding: 3em 5em 0em;
+}
+.containerMain{
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    background: #161b2a40;
+    border-radius: 5px;
+    box-shadow: 5px 3px 8px #433b54c4;
+
+}
+
+.container1{
+   
+}
+.text2{
+    color: #e8e8e8;
+    font-size: 30px;
+    text-shadow: -3px -2px black, 1px 1px;
+    font-family: Comic Sans MS;
+    margin-top: 3em;
+}
+.logo{
+    width: 36%;
+    border-radius: 150%;
+    margin:1em 0em;
+    box-shadow: 2px 5px 5px #c5c5c5;
+}
+input{
+    box-shadow: inset 0px 0px 15px 0;
+    width: 70%;
+    height: 3em;
+    border-radius: 5px 5px 10px black;
+    border-radius: 15px;
+    border: 1px solid #124754;
+    text-align: inherit;
+  
+}
+.video{
+    position:absolute;
+    z-index: 1;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+}
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5em;
+}
+.data{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin: 0.5em;
+    padding-top: 0.5em;
+    border-radius:6px;
+    background: #d5d7d4;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+    cursor:default;
+    transition: all 400ms ease;
+    background: radial-gradient(circle at 62.28% 119.54%, #ffffff 0,#5f2222 12.5%, #496282a3 25%, #5329194d 37.5%, #0724416b 50%, #36174614 62.5%, #61abce7a 75%,#ccc0ccb0 87.5%,#1e15364f 100%);
+}
+.data:hover{
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+}
+
+.textparraf{
+    font: italic bold 30px Georgia, Serif;
+    margin: 2em 2em;
+    font-weight: 800;
+    text-shadow: -14px 6px 0 #000000c2;
+}
+.figure{
+    position: relative;
+    width: 95%;
+    height: 20.2em;
+    object-fit: cover;
+    border-radius: 15px;
+    overflow: hidden;
+    cursor: pointer;
+    box-shadow: 0px 15px 25px rgb(50 42 56);
+    margin: 0.4em;
+    background: #cdd1daba;
+
+   
+}
+
+h3{
+    border-top: 1px solid #05040478;
+    margin: 0;
+    padding: 0.3em;
+    font-family: cursive;
+}
+.image{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+
+.buton{
+    padding: 0.5em 2em;
+    margin: 0em 1em;
+    background: #407fb782;
+    border: none;
+    border-radius: 6px;
+    box-shadow: 1px 1px 15px black;
+    color: #fff0f0;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.butonbtn{
+    padding-bottom:2em;
+}
+
+.textp{
+    display: none;
+    text-align: justify;
+    font-size: 11.8px;
+    padding: 0.5em 1em;
+    width: 26em;
+}
+
+figure:hover img{
+    display: none;
+}
+figure:hover .textp{
+    display: block;
+   
+}
+.hdurl{
+    font-size: 10px;
+}
+
