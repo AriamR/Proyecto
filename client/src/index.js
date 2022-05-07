@@ -3,9 +3,9 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import Axios from "axios";
+//import Axios from "axios";
 
-Axios.defaults.baseURL ="https://astronomicreact.herokuapp.com/api"
+//Axios.defaults.baseURL ="https://astronomicreact.herokuapp.com/api"
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
